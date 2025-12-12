@@ -1,0 +1,123 @@
+🍽️ Python Restaurant Order System
+A simple and interactive command-line restaurant ordering system built with Python. This project simulates a restaurant ordering experience where users can browse menu items, add them to their cart, and calculate their total bill.
+
+✨ Features
+📋 Interactive Menu Display: Shows available items with prices
+
+🛒 Order Management: Add multiple items to your order
+
+💰 Automatic Total Calculation: Real-time bill calculation
+
+✅ Input Validation: Checks if items exist in the menu
+
+📝 Order Summary: Detailed receipt of all ordered items
+
+🔄 Flexible Ordering: Continue adding items until satisfied
+
+🍔 Menu Items
+Item	Price
+Pizza	$40
+Burger	$25
+Pasta	$30
+Salad	$15
+Dessert	$10
+Coffee	$50
+🚀 How to Use
+Clone the repository:
+
+bash
+git clone https://github.com/yourusername/python-restaurant-order.git
+cd python-restaurant-order
+Run the program:
+
+bash
+python restaurant_order.py
+Follow the prompts:
+
+Enter items you want to order
+
+Confirm additions to your order
+
+View your final bill
+
+📝 Example Usage
+text
+Welcome to the Python Hotel!
+Pizza: $40
+Burger: $25
+Pasta: $30
+Salad: $15
+Dessert: $10
+Coffee: $50
+
+Please enter the first item you would like to order: Pizza
+Your Item Pizza has been added to your order
+
+Would you like to add another item to your order? (Yes/No): Yes
+Please enter the item you would like to add: Salad
+Item Salad has been added to your order
+
+Would you like to add another item? (Yes/No): No
+
+=== Order Summary ===
+Pizza: $40
+Salad: $15
+Total Amount: $55
+Thank you for your order!
+🛠️ Technologies Used
+Python 3.x
+
+Dictionaries for menu storage
+
+Control flow (if-else, while loops)
+
+String formatting for output
+
+List manipulation for order tracking
+
+📁 Project Structure
+text
+python-restaurant-order/
+│
+├── restaurant_order.py    # Main program file
+├── README.md             # This file
+└── requirements.txt      # Dependencies (none for this project)
+🧪 Learning Objectives
+This project demonstrates:
+
+Basic Python syntax and control structures
+
+Dictionary manipulation for data storage
+
+User input handling and validation
+
+Loop implementation for continuous operations
+
+String formatting for clean output
+
+Simple program flow management
+
+🔧 Customization
+Want to modify the menu? Simply edit the menu dictionary in the code:
+
+python
+menu = {
+    'Item Name': price,
+    'Another Item': price,
+    # Add more items as needed
+}
+🤝 Contributing
+Contributions are welcome! Feel free to:
+
+Add more menu items
+
+Implement a GUI version
+
+Add discount calculations
+
+Include tax calculations
+
+Create a database for menu items
+
+📄 License
+This project is open source and available under the MIT License.
